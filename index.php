@@ -59,15 +59,8 @@
 <div id="wrapper">
         <nav id="mainNav" class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px;">
             <div class="container-fluid">
-                <!-- Mobile View -->
-                <div class="navbar-header" style="background-color: transparent;">
-                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="">
-                        <a class="page-scroll" href="#" style="color:#fff;">Sign Out</a>
-                        <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars"></i></a>
-                    </button>
-                </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" >
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-left">
                         <li>
                             <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars"></i></a>
