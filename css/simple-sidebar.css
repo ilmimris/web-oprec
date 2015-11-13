@@ -127,6 +127,7 @@
         position: relative;
         margin-right: 0;
     }
+}
 
     .profile-userpic img {
       float: none;
@@ -149,4 +150,3 @@
       font-weight: 600;
       margin-bottom: 7px;
     }
-}

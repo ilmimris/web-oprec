@@ -60,7 +60,7 @@
         <nav id="mainNav" class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px;">
             <div class="container-fluid">
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
                         <li>
                             <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars"></i></a>
@@ -74,6 +74,13 @@
                             <a class="page-scroll" href="#">Sign Out</a>
                         </li>
                     </ul>
+                </div>
+                <!-- Mobile View -->
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" >
+                        <a class="page-scroll" href="#" style="color:#fff;">Sign Out</a>
+                        <a href="#menu-toggle2" id="menu-toggle2"><i class="fa fa-bars"></i></a>
+                    </button>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
@@ -141,6 +148,12 @@
     <!-- Menu Toggle Script -->
     <script>
     $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script>
+    $("#menu-toggle2").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
