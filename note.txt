@@ -4,6 +4,3 @@ Pertama git add <filename>
 Kedua git commit -m "pesan komit"
 ketiga git push origin master
 
-coba update lagi 
-coba update
-test1
